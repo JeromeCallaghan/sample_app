@@ -1,12 +1,17 @@
 source 'https://rubygems.org'
 ruby '2.1.1'
-#ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails'
+gem 'bootstrap-sass'
+gem 'sprockets'
 
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
